@@ -119,3 +119,7 @@ test('the catalog countries: France, which needs Gladys >= 5.3.0', () => {
     .map(Number);
   assert.ok(major > 5 || (major === 5 && minor >= 3), 'countries needs Gladys 5.3.0');
 });
+
+test('the catalog transport: cloud, the companies are read from cartedesartisans.fr', () => {
+  assert.deepEqual(manifest.transports, ['cloud']);
+});

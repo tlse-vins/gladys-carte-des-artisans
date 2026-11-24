@@ -12,6 +12,7 @@
   "cover_image": "https://raw.githubusercontent.com/tlse-vins/gladys-carte-des-artisans/main/cover.jpg",
   "categories": ["services"],
   "countries": ["FR"],
+  "transports": ["cloud"],
   "location": true,
   "config_schema": [
     {
